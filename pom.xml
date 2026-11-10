@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-pipelines</artifactId>
+  <artifactId>cs1632-cicd-pipelines-miw185</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -30,9 +30,13 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
-    <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
-    <url>https://github.com/wonsunahn/CS1632_CICD_JUnit/tree/main</url>
+    <distributionManagement>
+       <repository>
+         <id>github</id>
+         <name>GitHub Apache Maven Packages</name>
+         <url>https://maven.pkg.github.com/CS1632-Fall2026/cs-1632-fall-2026-exercise-8-ci-cd-pipelines-michw3i</url>
+       </repository>
+    </distributionManagement>
   </scm>
 
   <properties>
